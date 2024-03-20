@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="bj.js" defer></script>
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bgMusic" autoplay loop>
+        <source src="music_fx_wild_and_aggressive_hiphop_flappybirdgame.mp3" type="audio/mpeg">
+        <!-- Add additional <source> elements for other audio formats (e.g., ogg, wav) -->
+        Your browser does not support the audio tag.
+    </audio>
+
+    <div class="background"></div>
+    <img src="images/Bird.png" alt="bird-img" class="bird" id="bird-1">
+    <div class="message">
+        Enter To Start Game <p><span style="color: red;">&uarr;</span> ArrowUp to Control</p>
+    </div>
+    <div class="score">
+        <span class="score_title"></span>
+        <span class="score_val"></span>
+    </div>
+</body>
+</html>
